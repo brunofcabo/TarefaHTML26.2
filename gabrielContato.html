@@ -11,6 +11,19 @@
         <a href="gabrielIndividual.html">Voltar para a página individual</a>
         <h1>Contato - Gabriel</h1>
     </header>
+    <main>
+        <form action="/enviar" method="post" enctype="multipart/form-data">
+            <label for="nome">Nome</label> <br>
+            <input type="text" name="nome" placeholder="Nome" id="nome" required> <br> <br>
+            <label for="email">E-mail</label> <br>
+            <input type="email" name="email" placeholder="E-mail" id="nome" required> <br> <br>
+            <label for="telefone">Telefone</label> <br>
+            <input type="tel" name="telefone" placeholder="Telefone" id="telefone" required> <br> <br>
+            <label for="mensagem">Mensagem</label> <br>
+            <textarea name="mensagem" style="resize: none;" id="mensagem" required></textarea> <br> <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
     
 </body>
 </html>
