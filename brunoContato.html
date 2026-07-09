@@ -20,17 +20,15 @@
     <hr>
 
     <main>
-        <form>
+        <form action="https://formspree.io/f/mbdvvgnq" method="post">
             <label for="nome">Nome:</label>
-            <input type="text" name="nome" placeholder="Nome"> <br>
-
+            <input type="text" name="nome" placeholder="Nome" required> <br>
             <label for="e-mail">E-mail:</label>
-            <input type="email" name="e-mail" placeholder="E-mail"> <br>
-
-            <label for="numero">Telefone:</label>
-            <input type="number" name="numero" placeholder="Telefone"> <br>
-            <textarea placeholder="Mensagem" cols="37" rows="5"></textarea> <br>
-
+            <input type="email" name="e-mail" placeholder="E-mail" required> <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" placeholder="Telefone" required> <br>
+            <label for="mensagem">Mensagem:</label> <br>
+            <textarea type="text" name="mensagem" placeholder="Mensagem" cols="30" rows="5" required></textarea> <br>
             <button type="submit">Enviar</button> <br> <br>
         </form>
 
